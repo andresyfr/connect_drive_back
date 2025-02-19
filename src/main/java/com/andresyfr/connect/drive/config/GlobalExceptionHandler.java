@@ -6,9 +6,10 @@ import org.springframework.web.servlet.NoHandlerFoundException;
 import org.springframework.web.servlet.mvc.support.RedirectAttributes;
 import org.springframework.web.servlet.view.RedirectView;
 import com.andresyfr.connect.drive.dtos.ErrorResponse;
-import com.andresyfr.connect.drive.services.exceptions.AccessDeniedException;
-import com.andresyfr.connect.drive.services.exceptions.AccessDeniedExceptionView;
-import com.andresyfr.connect.drive.services.exceptions.ResourceNotFoundException;
+import com.andresyfr.connect.drive.utils.exceptions.AccessDeniedException;
+import com.andresyfr.connect.drive.utils.exceptions.AccessDeniedExceptionView;
+import com.andresyfr.connect.drive.utils.exceptions.ResourceNotFoundException;
+
 import java.io.IOException;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

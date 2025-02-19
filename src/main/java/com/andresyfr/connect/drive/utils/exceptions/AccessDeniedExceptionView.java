@@ -1,4 +1,4 @@
-package com.andresyfr.connect.drive.services.exceptions;
+package com.andresyfr.connect.drive.utils.exceptions;
 
 public class AccessDeniedExceptionView extends RuntimeException{
 

@@ -6,7 +6,8 @@ import org.springframework.web.bind.annotation.RestController;
 import com.andresyfr.connect.drive.dtos.DriveFiles;
 import com.andresyfr.connect.drive.enums.SessionKey;
 import com.andresyfr.connect.drive.services.GoogleDriveService2;
-import com.andresyfr.connect.drive.services.exceptions.AccessDeniedException;
+import com.andresyfr.connect.drive.utils.exceptions.AccessDeniedException;
+
 import jakarta.servlet.http.HttpSession;
 
 @RestController

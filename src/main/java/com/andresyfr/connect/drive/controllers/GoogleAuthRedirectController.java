@@ -6,7 +6,8 @@ import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import com.andresyfr.connect.drive.enums.SessionKey;
 import com.andresyfr.connect.drive.services.OauthTokenService;
-import com.andresyfr.connect.drive.services.exceptions.AccessDeniedException;
+import com.andresyfr.connect.drive.utils.exceptions.AccessDeniedException;
+
 import java.util.stream.Stream;
 
 @Controller
